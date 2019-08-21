@@ -1,0 +1,86 @@
+.font_size{
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+    color: rgb(42, 165, 48);    
+}
+
+.input_css{
+    /* padding: 0 auto; */
+    padding-left: 15px;
+    margin: 0 auto;
+    width: 400px;
+    height:50px;
+    line-height: 35px;
+    font-size:20px;
+    font-weight: 540;
+    color:gray;
+    box-shadow:1px 5px 2px rgb(199, 197, 197);
+    border-color: rgb(233, 222, 222);
+    border:0;
+    outline: none; /*设置选中时 placeholder*/
+    /* opacity:0.2; */
+
+}
+
+.input_css::placeholder{
+    opacity:0.2;
+}
+
+.bgi{
+    width: 100%;
+    height: 1500px;
+    background-image: url(gray.jpg);
+}
+
+.td_css
+{
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased; /*抗锯齿*/
+    -moz-osx-font-smoothing: grayscale;   /*原理相似*/
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    padding-left: 15px;
+    margin: 0 auto;
+    width: 400px;
+    height:50px;
+    line-height: 35px;
+    font-size:20px;
+    font-weight: 540;
+    color:gray;
+    box-shadow:1px 5px 2px rgb(199, 197, 197);
+    border-color: rgb(233, 222, 222);
+    border:0;
+    background-color: white;
+    text-align: left;
+    
+}
+
+.table_css{
+    text-align: center;
+    margin: auto ;
+    padding: 0px;
+}
+
+.a_rigth{
+    margin: auto;
+    padding: auto;
+    float: right;
+    height: 41px;
+    /* text-align:right;*/
+    display:none; 
+    
+} 
+
+.todo_css{
+    font-size: 90px;
+    padding: 0;
+    margin: 0px;
+    opacity:0.2;/*文字透明度*/
+}
+
+.td_css:hover .a_rigth{
+    display:inline-block; 
+}
+
